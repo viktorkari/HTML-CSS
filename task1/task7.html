@@ -1,13 +1,47 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+     .big-box{
+         display: flex;
+         justify-content: space-around;
+
+
+     }
+     .box{
+         width: 200px;
+         height: 200px;
+         background-color: #fde2c3;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+         .rubik-pixels-regular {
+             font-family: "Rubik Pixels", system-ui;
+         }
+         .sedgwick-ave-display {
+             font-family: "Sedgwick Ave Display", system-ui;
+         }
+    </style>
 </head>
 <body>
-
+<div class="big-box">
+    <div class="box "><p class="rubik-pixels-regular">Rubik Pixels</p></div>
+    <div class="box"><p class="sedgwick-ave-display">Sedgwick Ave Display</p></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
 </body>
 </html>
