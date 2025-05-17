@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+section{
+    height: 100vh;
+}
+#section-home{
+    background-color: #11f395;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#section-about{
+    background-color: #d61616;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+#section-contact{
+    background-color: #0c42f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.item1{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
