@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*---------------------header------------------------------------*/
+.header{
+    background-color: #D9D9D9;
+    height: 22vh;
+    width: 100vw;
+}
+/*---------------------main------------------------------------*/
+.main{
+    background-color: #A4A4A4;
+    height: 56vh;
+    width: 100vw;
+}
+/*---------------------footer------------------------------------*/
+.footer{
+    background-color: #D9D9D9;
+    height: 22vh;
+    width: 100vw;
+}

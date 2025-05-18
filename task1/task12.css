@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+}
+.section1, .section6{
+    background-color: #D9D9D9;
+    height: 22vh;
+    width: 100vw;
+}.section2, .section5{
+    background-color: #C0BDBD;
+    height: 56vh;
+    width: 27vw;
+}.section3{
+    background-color: #827878;
+    height: 50%;
+    width: 100%;
+}.section4{
+    background-color: #B7ADAD;
+    height: 50%;
+    width: 100%;
+}
+ main div{
+     width: 46vw;
+     height: 56vh;
+ }
