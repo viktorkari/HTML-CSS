@@ -19,5 +19,9 @@ ul>li:last-of-type{
 }
 }
 #list5{
-ul>li:nth-child(2){}
+ul>li::first-letter{
+    color: #f3012e;
+    font-size: 30px;
 }
+}
+
