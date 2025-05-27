@@ -1,0 +1,114 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #24204A
+}
+.container{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    height: 113px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #24204A;
+
+
+/*---------------------3d--------------------------*/
+    backdrop-filter: blur(10px);
+    box-shadow:
+            0 8px 32px rgba(0, 0, 0, 0.3),
+            inset 0 0 2px rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transform: perspective(1000px) rotateX(2deg);
+    transition: all 0.3s ease;
+}
+
+.element:hover {
+    transform: perspective(1000px) rotateX(4deg) translateY(-5px);
+    box-shadow:
+            0 15px 40px rgba(0, 0, 0, 0.4),
+            inset 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+/*-------------------------end3d------------------------------*/
+
+ul li a{
+    text-decoration: none;
+    color: #E5E5E5;
+    font-family: Inter , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 64px;
+    margin-right: 115px;
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #ff0080,
+    0 0 30px #ff0080,
+    0 0 40px #ff0080,
+    0 0 55px #ff0080,
+    0 0 75px #ff0080;
+}
+h2{
+
+    font-family: Inter , sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 580px;
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #ff0080,
+    0 0 30px #ff0080,
+    0 0 40px #ff0080,
+    0 0 55px #ff0080,
+    0 0 75px #ff0080;
+}
+.lamp {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #24204A;
+}
+.text1{
+    color: #8E88C1;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    text-decoration: none;
+}
+.text2{
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.text3{
+    color:  #8E88C1;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+}
