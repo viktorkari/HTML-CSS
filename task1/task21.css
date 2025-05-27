@@ -5,7 +5,8 @@ body{
     background: #24204A
 }
 .container{
-    width: auto;
+    width: 100vw;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
@@ -69,7 +70,7 @@ h2{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-right: 580px;
+    margin-right: 535px;
     color: #fff;
     text-shadow: 0 0 5px #fff,
     0 0 10px #fff,
@@ -80,13 +81,16 @@ h2{
     0 0 75px #ff0080;
 }
 .lamp {
-    height: 500px;
+    height: 579px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
     background: #24204A;
 }
 .text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #8E88C1;
     font-family: Inter, sans-serif;
     font-size: 16px;
@@ -94,6 +98,12 @@ h2{
     font-weight: 500;
     line-height: 130%; /* 20.8px */
     text-decoration: none;
+    width: 145px;
+    height: 41px;
+    margin-left: 115px;
+    margin-top: 85px;
+    border-radius: 8px;
+    background: #4B4864;
 }
 .text2{
     color: #FFF;
@@ -102,7 +112,10 @@ h2{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
+    width: 261px;
+    height: 88px;
+    margin-left: 115px;
+    margin-top: 32px;
 }
 .text3{
     color:  #8E88C1;
@@ -111,4 +124,54 @@ h2{
     font-style: normal;
     font-weight: 500;
     line-height: 130%; /* 20.8px */
+    width: 570px;
+    height: 85px;
+    margin-left: 115px;
+    margin-top: -10px;
+
+}
+.text4{
+    width: 200px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #3F50E7;
+    box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    margin-left: 115px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lamp2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    height: 411px;
+    flex-shrink: 0;
+    margin-left: 865px;
+    margin-top: -400px;
+    border-radius: 8px;
+    background: #827EAC;
+    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
+}
+.img{
+    width: 318px;
+    height: 318px;
+}
+.lamp3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 764px;
+    background: #071341;
 }
