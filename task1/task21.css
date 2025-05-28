@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: #24204A
+    background: #24204A;
 }
 .container{
     width: 100vw;
@@ -171,7 +171,104 @@ h2{
 .lamp3{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
     height: 764px;
+    width: 100vw;
     background: #071341;
+    position: relative;
+
+}
+.sun{
+    display: flex;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF6853;
+    box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
+    margin-left: 115px;
+    margin-top: 50px;
+}
+.entypo{
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 18px;
+    margin-top: 55px;
+}
+.lorem{
+    color: #8E88C1;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+    margin-top: 77px;
+    margin-left: -28px;
+}
+.sun1{
+    display: flex;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF537C;
+    box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
+    margin-left: 115px;
+    margin-top: 50px;
+
+}.sun2{
+    display: flex;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+     background: #80D2C4;
+    box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
+    margin-left: 115px;
+    margin-top: 50px;
+
+}.sun3{
+    display: flex;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+      border-radius: 8px;
+      background: #3F50E7;
+    box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
+    margin-left: 115px;
+    margin-top: 50px;
+
+}.sun4{
+    display: flex;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+       border-radius: 8px;
+       background: #95CB7C;
+    box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
+    margin-left: 115px;
+    margin-top: 50px;
+}
+.texth1{
+    position: absolute;
+    height: 126px;
+    color: #FFF;
+    text-align: center;
+
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 116.667% */
+    margin-top: 120px;
+    margin-left: 166px;
 }
