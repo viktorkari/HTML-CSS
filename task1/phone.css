@@ -1,0 +1,12 @@
+@media screen  and (min-width: 300px) and (max-width: 550px) {
+
+    .showcases {
+        background: #921b1b;
+        height: auto;
+       display: flex;
+        flex-direction: column;
+        padding: 32px 16px;
+
+
+    }
+}
