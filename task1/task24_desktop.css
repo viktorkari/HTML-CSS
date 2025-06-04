@@ -1,0 +1,22 @@
+
+.features{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.img{
+    width: 271px;
+
+
+}
+.features p{
+    color: #7687A1;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-left: 10px;
+}
+

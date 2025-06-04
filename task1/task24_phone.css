@@ -1,0 +1,17 @@
+@media screen  and (max-width: 768px){
+
+    .features{
+        display: flex;
+        width: 343px;
+        gap: 32px;
+        flex-wrap: wrap;
+        padding: 32px 13px;
+    }
+    .img{
+        width: 100%;
+    }
+
+
+
+
+}
