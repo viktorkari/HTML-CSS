@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .grid{
+            height: 100vh;
+            display: grid;
+            grid-template-columns:  3fr 1fr;
+            grid-template-rows: 1fr 1fr 0.5fr 0.5fr 1fr 1fr;
+            grid-template-areas:
+                    "header header"
+                     "left-aside1 right-aside1"
+                     "left-aside2 right-aside1"
+                     "left-aside2 right-aside2"
+                     "left-aside3 right-aside2"
+                      "footer footer";
+        }
+        header{
+            grid-area: header;
+            background-color: #921b1b;
+        }
+        .left-aside1{
+            grid-area: left-aside1;
+            background-color: #fdc0ca;
+        }.left-aside2{
+            grid-area: left-aside2;
+            background-color: #284d79;
+        }.left-aside3{
+            grid-area: left-aside3;
+            background-color: #272727;
+        }
+        .right-aside1{
+            grid-area: right-aside1;
+            background-color: #f1e117;
+        }  .right-aside2{
+            grid-area: right-aside2;
+            background-color: #644C4C;
+        }
+        footer{
+            grid-area: footer;
+            background-color: #11f395;
+        }
+    </style>
+</head>
+<body>
+<div class="grid">
+    <header></header>
+    <aside class="left-aside1"></aside>
+    <aside class="left-aside2"></aside>
+    <aside class="left-aside3"></aside>
+    <aside class="right-aside1"></aside>
+    <aside class="right-aside2"></aside>
+    <footer></footer>
+</div>
+</body>
+</html>
